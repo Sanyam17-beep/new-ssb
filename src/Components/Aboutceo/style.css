@@ -1,6 +1,7 @@
 .About{
     position: relative;
    
+    height: 90vh;
    /* padding-bottom: 15px; */ 
    display: flex;
 }
@@ -15,6 +16,20 @@
     gap: 20px;
 
 }
+
+.test{
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+  }
+  .visible {
+    opacity: 1;
+  }
+  
+  .hidden {
+    opacity: 0;
+  }
+  
 .About-content-header{
     font-family: Yantramanav;
     font-size: 40px;
@@ -31,7 +46,7 @@
 }
 .About-img{
     width: 50%;
- 
+ position: relative;
 
 }
 .About-img>img{

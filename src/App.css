@@ -183,9 +183,11 @@ legend{
   }
  .About{
   flex-direction: column;
+  height: auto !important;
  }
 .About-img{
   width: 100% !important;
+  height: 275px;
 }
 .About-content{
   width: auto !important;

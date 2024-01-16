@@ -154,6 +154,9 @@ letter-spacing: 0em;
     overflow: hidden;
     left: -50px;
     font-weight: 500;
+    box-shadow: 2px 13px 22px -7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 13px 22px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 13px 22px -7px rgba(0,0,0,0.75);
  }
 
 

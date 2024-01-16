@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import React,{useEffect, useState} from 'react'
 import "./style.css"
 import { FaArrowRightLong } from "react-icons/fa6";
 import im1 from "../../im1.jpg";
@@ -7,6 +7,10 @@ import im3 from "../../im3.jpg";
 import im11 from "../../im11.png";
 
 function Feature({setenroll,enroll}) {
+  const [act,setact]=useState(true);
+  const [act1,setact1]=useState(true);
+  const [act2,setact2]=useState(true);
+  const [act3,setact3]=useState(true);
   const smoothScrollTo = (id, callback) => {
     // Check if the current route is /enroll
    
@@ -91,10 +95,10 @@ function Feature({setenroll,enroll}) {
     <div className='Feature-section' id='box'>
       <div className='Feature-header'>Training Modules</div>
         <div className="Feature-section-container">
-            <div className='Feature'><div className='Feature-img'><img src={im1} alt="" /></div><div className='Feature-content'>Stage 1 Module</div><div className='Box-circle'><FaArrowRightLong className='rotate-45'/></div></div>
-            <div className='Feature'><div className='Feature-img'><img src={im2} alt="" /></div><div className='Feature-content'>Psychology Module</div><div className='Box-circle'><FaArrowRightLong className='rotate-45'/></div></div>
-            <div className='Feature'><div className='Feature-img'><img src={im3} alt="" /></div><div className='Feature-content'>Group Task</div><div className='Box-circle'><FaArrowRightLong className='rotate-45'/></div></div>
-            <div className='Feature'><div className='Feature-img'><img src={im11} alt="" /></div><div className='Feature-content'>Personal Interview</div><div className='Box-circle'><FaArrowRightLong className='rotate-45'/></div></div>
+            <div className='Feature'><div className='content-container' style={act?{display:"none"}:{}}>Practice tests would be conducted and all relevant aspects of PPDT would be explained in detail, including explanation of each question &amp; answer of the Verbal /Non verbal intelligence Test, comprising 50 questions.</div><div className='Feature-container' style={!act?{display:"none"}:{}}><div className='Feature-img'><img src={im1} alt="" /></div><div className='Feature-content'>Stage 1 Module</div></div><div className='Box-circle' onClick={()=>{setact(!act);}}><FaArrowRightLong className='rotate-45'/></div></div>
+            <div className='Feature'><div className='content-container' style={act1?{display:"none"}:{}}>Initially relevant theoretical aspects would be covered followed by amock test. Later, the complete test ( TAT, WAT, SRT &amp; SD) would be administered asconducted at the SSB. All responses will be analysed and relevant aspects would be explained in detail. Focus would be on explaining the concepts.</div><div className='Feature-container' style={!act1?{display:"none"}:{}}><div className='Feature-img'><img src={im2} alt="" /></div><div className='Feature-content'>Psychology Module</div></div><div className='Box-circle' onClick={()=>{setact1(!act1);}}><FaArrowRightLong className='rotate-45'/></div></div>
+            <div className='Feature'><div className='content-container' style={act2?{display:"none"}:{}}>GD, GPE and Lecturette tasks will be conducted as conducted at the SSB and other tasks will be explained with the help of videos and diagrams. Thrust will be on making the candidates understand the concepts.</div><div className='Feature-container' style={!act2?{display:"none"}:{}}><div className='Feature-img'><img src={im3} alt="" /></div><div className='Feature-content'>Group Task</div></div><div className='Box-circle' onClick={()=>{setact2(!act2);}}><FaArrowRightLong className='rotate-45'/></div></div>
+            <div className='Feature'><div className='content-container' style={act3?{display:"none"}:{}}>All theoretical aspects to include PIQ, etc. would be explained followed by mock interviews and feedback, in detail.</div><div className='Feature-container' style={!act3?{display:"none"}:{}}><div className='Feature-img' ><img src={im11} alt="" /></div><div className='Feature-content'>Personal Interview</div></div><div className='Box-circle' onClick={()=>{setact3(!act3);}}><FaArrowRightLong className='rotate-45'/></div></div>
         </div>
        <div style={{width:"100%",display:"flex",alignItems:"center",justifyContent:"center"}}> <div className='enroll' style={{cursor:"pointer"}} onClick={()=>{setenroll(true); handleScrollTo('enroll');}}>Enroll now</div></div>
     </div>
