@@ -17,10 +17,10 @@ function Contact() {
               <div className="form-header-title">
                 Get in <span>Touch</span>
               </div>
-              <div className="hello" >
+              {/* <div className="hello" >
                 Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu
                 leo molestie vel, ornare non id blandit netus.
-              </div>
+              </div> */}
             </div>
             <div >
                 <form action="" className="form-input-container">

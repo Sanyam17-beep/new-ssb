@@ -101,7 +101,7 @@ function Hero({setenroll,enroll}) {
     <div className="hero" id="home">
       <div className="Hero-header">
         <div className="Hero-header-content">
-        YOUR BEST SHOT AT CRACKING SSB AND NDA
+        YOUR BEST SHOT AT CRACKING <br/>SSB AND NDA
         </div>
         <div className='enroll' style={{cursor:"pointer"}} onClick={()=>{setenroll(true); handleScrollTo('enroll');}}>Enroll now</div>
         </div>

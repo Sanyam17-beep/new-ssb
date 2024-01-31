@@ -212,7 +212,7 @@ align-items: center;
 .Hero-header{
     width: 50%;
     height: 100%;
-    background-color: rgb(200, 229, 151);
+    background-color: rgb(224, 238, 201);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -250,7 +250,7 @@ text-align: left;
 
 }
 .Hero-header-content{
-    font-size: 70px;
+    font-size: 50px;
     width: 60%;
     display: flex;
     justify-content: center;

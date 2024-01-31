@@ -15,7 +15,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 export default function Testimonials() {
   return (
     < div className='testimonial-container'>
-        <div className='heading'>What Our Student Say</div>
+        <div className='heading'>What Our Students Say</div>
       <Swiper
         spaceBetween={30}
         loop={true}

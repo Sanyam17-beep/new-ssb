@@ -7,7 +7,8 @@
     border-bottom: 1px solid #FFFFFF;
     padding-bottom: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: flex-start;
     flex-wrap: wrap;
     gap: 20px;
 }
@@ -64,7 +65,7 @@ display: flex;
 flex-wrap: wrap;
 color: white;
 font-family: Hind Vadodara;
-font-size: 20px;
+font-size: 12px;
 padding-top: 10px;
 padding-left: 10px;
 font-weight: 500;

@@ -17,7 +17,7 @@ function Footer() {
     <div className='Footer'>
         <div className='footer-container'>
          <div className='logo-container'>
-         <img src={svglogo} alt="" width={200}/>
+         {/* <img src={svglogo} alt="" width={200}/> */}
             <div className='logo-quote'>Master Your SSB & NDA Exams!</div>
             <div className='logo-icon-container'>
                 <div className='logo-icon'><a href="https://www.facebook.com/SSBBullsEye"><FaFacebookF style={{    color: "darkolivegreen"}}/></a></div>
@@ -30,7 +30,7 @@ function Footer() {
          <div className='Contact-Us'>
             <div className='Contact-Us-header'>Contact Us</div>
             <div className='Contact-Us-content'>
-            We are always there to help you with your queries. Please feel free to contact us.
+            {/* We are always there to help you with your queries. Please feel free to contact us. */}
             <div> <FaPhoneAlt style={{height:"15px",width:"15px"}}/> +(91) 97427 53113</div>
             <div> <IoLogoWhatsapp  style={{height:"15px",width:"15px"}}/> +(91) 83103 89908</div>
             <div> < MdEmail style={{height:"15px",width:"15px"}}/> support@ssbbullseye.com</div>

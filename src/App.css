@@ -10,11 +10,10 @@
   background-color: rgb(250, 246, 241);
 }
 .Enroll-heading{
-  font-size:50px;
- 
-  font-family:DM Sans;
+  font-family: Yantramanav;
+    font-size: 40px;
   background-color: rgb(250, 246, 241);
-  border-bottom: 2px solid #3D9970;
+
 }
 .fieldset{
   display: flex;
@@ -63,6 +62,7 @@ legend{
   display: flex;
   gap: 10px;
   width: 100%;
+  font-family: Yantramanav;
   flex-direction: column;
   font-weight: bold;
   font-size: large;
@@ -79,6 +79,9 @@ legend{
   }
 }
 @media only screen and (max-width: 800px) {
+  .form-container{
+    width: 90vw !important;
+  }
   .Enroll-page{
     width: 89.5% !important;
   }

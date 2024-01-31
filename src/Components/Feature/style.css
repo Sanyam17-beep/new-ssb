@@ -76,7 +76,7 @@ border-radius: 4px;
 }
 .Feature-content{
     width: 100%;
-  height: 40%;
+  height: 25%;
     font-family: Yantramanav;
 font-size: 20px;
 
@@ -91,7 +91,7 @@ text-align: center;
 }
 .Feature-img{
     width: 100%;
-    height: 60%;
+    height: 75%;
 }
 .Feature-img>img{
     width: 100%;
