@@ -44,7 +44,7 @@ function Enroll() {
   
     newdat(formDatab);
     fetch(
-        "https://script.google.com/macros/s/AKfycbz7j8xwQTKTrVv-t2w5QtjmY11ZIgFkhaWTiiv56oDFyl1Fq4iVg48jm_Dsi0i2X9vH/exec?function=doPost",
+        "https://script.google.com/macros/s/AKfycbxAMJLduPOn51iSSPw7IorYCJuceAPI4T3DdCtr1dcVDGr-5jWtey8aHBiIzuX-KAfj/exec?function=doPost",
         {
           method: "POST",
           body: formDatab
