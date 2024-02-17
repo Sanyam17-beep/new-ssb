@@ -4,7 +4,8 @@
     justify-content: center;
     padding: 10px;
     background-color: rgb(250, 246, 241);
-   gap: 30px;
+   gap: 15px;
+   
 }
 .blogs-header{
     display: flex;
@@ -63,6 +64,11 @@ font-weight: 500;
 line-height: 30px;
 letter-spacing: 0em;
 text-align: left;
+display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 3; 
+  max-height: 5em; 
 
 }
 .blog-content{
@@ -70,7 +76,7 @@ text-align: left;
     width: 100%;
     background: darkolivegreen;
    display: flex;
-   justify-content: space-between;
+   gap: 10px;
    flex-direction: column;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -80,12 +86,12 @@ text-align: left;
     width: 320px;
 height:420px;
 border-radius: 17px;
-
+cursor: pointer;
 }
 .blog-heading{
 font-family: Yantramanav;
 font-size: 40px;
-line-height: 125px;
+line-height: 90px;
 letter-spacing: 0em;
 text-align: center;
 color: darkolivegreen;

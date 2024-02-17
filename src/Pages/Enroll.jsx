@@ -82,7 +82,7 @@ function Enroll() {
         key: "rzp_test_rOBbpOth8r3Pe1",
         amount: "1000000",
         currency: "INR",
-        name: "SSBBULSEYE",
+        name: "SSBBULLSEYE",
         description: "Test Transaction",
         image:
           "http://localhost:3000/static/media/Primarygreen.0c9716bab372845eab9732aa01412125.svg",

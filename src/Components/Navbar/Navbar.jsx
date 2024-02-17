@@ -1,10 +1,10 @@
 import React, { useState,useEffect,useRef } from "react";
 import "./style.css";
 import svglogo from "../../Primarygreen.svg";
-import { useLocation, useNavigate } from "react-router-dom";
-import { Link as RouterLink } from "react-router-dom";
-import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
-import { setActiveLink } from "react-scroll/modules/mixins/scroller";
+// import { useLocation, useNavigate } from "react-router-dom";
+// import { Link as RouterLink } from "react-router-dom";
+// import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
+// import { setActiveLink } from "react-scroll/modules/mixins/scroller";
 function Navbar({setenroll,enroll}) {
 
   const [Active, SetActive] = useState("Home");
@@ -192,9 +192,9 @@ function Navbar({setenroll,enroll}) {
           Eligibilty
           {isOpen && (
           <div className="dropdown" ref={dropdownRef} style={{height:"160px"}}>
-            <a href="https://164.100.158.23/how-to-join.htm" className="dropdown-item">Indian Army</a>
-            <a href="https://www.joinindiannavy.gov.in/en/entry/entry/eligibilityform" className="dropdown-item">Indian Navy</a>
-            <a href="https://afcat.cdac.in/AFCAT/CareerAsPerQualification.html" className="dropdown-item">Indian Air force</a>
+            <a href="https://164.100.158.23/how-to-join.htm" className="dropdown-item" target="_blank" rel="noopener noreferrer">Indian Army</a>
+            <a href="https://www.joinindiannavy.gov.in/en/entry/entry/eligibilityform" className="dropdown-item" target="_blank" rel="noopener noreferrer">Indian Navy</a>
+            <a href="https://afcat.cdac.in/AFCAT/CareerAsPerQualification.html" className="dropdown-item" target="_blank" rel="noopener noreferrer">Indian Air force</a>
           </div>
           )}
         </div>
@@ -293,9 +293,9 @@ function Navbar({setenroll,enroll}) {
           
         </div>
         {/* <div style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center",gap:"20px"}}> */}
-        <a className="mobile-drop" style={ Active == "Eligibilty"?{}:{display:"none"}} href="https://164.100.158.23/how-to-join.htm" >Indian Army</a>
-            <a className="mobile-drop" style={ Active == "Eligibilty"?{}:{display:"none"}} href="https://www.joinindiannavy.gov.in/en/entry/entry/eligibilityform" >Indian Navy</a>
-            <a className="mobile-drop" style={ Active == "Eligibilty"?{}:{display:"none"}} href="https://afcat.cdac.in/AFCAT/CareerAsPerQualification.html">Indian Air force</a>
+        <a className="mobile-drop" style={ Active == "Eligibilty"?{}:{display:"none"}} href="https://164.100.158.23/how-to-join.htm" target="_blank" rel="noopener noreferrer">Indian Army</a>
+            <a className="mobile-drop" style={ Active == "Eligibilty"?{}:{display:"none"}} href="https://www.joinindiannavy.gov.in/en/entry/entry/eligibilityform" target="_blank" rel="noopener noreferrer">Indian Navy</a>
+            <a className="mobile-drop" style={ Active == "Eligibilty"?{}:{display:"none"}} href="https://afcat.cdac.in/AFCAT/CareerAsPerQualification.html" target="_blank" rel="noopener noreferrer">Indian Air force</a>
             {/* </div> */}
         <div className="link1"
           style={

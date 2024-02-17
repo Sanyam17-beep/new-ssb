@@ -1,14 +1,12 @@
 .Feature-section{
     width: 100%;
-    padding-top: 40px;
+    padding-top: 10px;
     padding-bottom: 40px;
     background-color: rgb(250, 246, 241);
     display: flex;
-/* justify-content: center;
-align-items: center; */
-position: relative;
-flex-direction: column;
-gap: 40px;
+    position: relative;
+    flex-direction: column;
+    gap: 25px;
 }
 .content-container{
     height: 100%;
@@ -39,7 +37,7 @@ flex-wrap: wrap;
     color: darkolivegreen;
     font-family: Yantramanav;
     font-size: 40px;
-
+    line-height: 80px;
 }
 
 .Box-circle{

@@ -20,11 +20,11 @@ function Footer() {
          {/* <img src={svglogo} alt="" width={200}/> */}
             <div className='logo-quote'>Master Your SSB & NDA Exams!</div>
             <div className='logo-icon-container'>
-                <div className='logo-icon'><a href="https://www.facebook.com/SSBBullsEye"><FaFacebookF style={{    color: "darkolivegreen"}}/></a></div>
-                <div className='logo-icon'><a href="https://twitter.com/ssbbullseye"><FaTwitter style={{    color: "darkolivegreen"}}/></a></div>
-                <div className='logo-icon'><a href="https://www.youtube.com/channel/UCd1VO9G4BzNXmKFNHTGkK4w"><FaYoutube style={{    color: "darkolivegreen"}}/></a></div>
-                <div className='logo-icon'><a href="https://www.instagram.com/ssbbullseye/"><FaInstagram style={{    color: "darkolivegreen"}}/></a></div>
-                <div className='logo-icon'><a href="https://www.linkedin.com/company/ssbbullseye/?viewAsMember=true"><FaLinkedinIn style={{    color: "darkolivegreen"}}/></a></div>
+                <div className='logo-icon'><a href="https://www.facebook.com/SSBBullsEye" target="_blank" rel="noopener noreferrer"><FaFacebookF style={{    color: "darkolivegreen"}}/></a></div>
+                <div className='logo-icon'><a href="https://twitter.com/ssbbullseye" target="_blank" rel="noopener noreferrer"><FaTwitter style={{    color: "darkolivegreen"}}/></a></div>
+                <div className='logo-icon'><a href="https://www.youtube.com/channel/UCd1VO9G4BzNXmKFNHTGkK4w" target="_blank" rel="noopener noreferrer"><FaYoutube style={{    color: "darkolivegreen"}}/></a></div>
+                <div className='logo-icon'><a href="https://www.instagram.com/ssbbullseye/" target="_blank" rel="noopener noreferrer"><FaInstagram style={{    color: "darkolivegreen"}}/></a></div>
+                <div className='logo-icon'><a href="https://www.linkedin.com/company/ssbbullseye/?viewAsMember=true" target="_blank" rel="noopener noreferrer"><FaLinkedinIn style={{    color: "darkolivegreen"}}/></a></div>
             </div>
          </div>
          <div className='Contact-Us'>

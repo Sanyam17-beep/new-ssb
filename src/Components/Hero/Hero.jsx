@@ -4,7 +4,7 @@ import { FaPlay } from "react-icons/fa6";
 import im1 from "../../im1.jpg";
 import im2 from "../../im2.jpg"
 import im3 from "../../im3.jpg";
-
+import vid from "../../ssbvid.mp4"
 import Enroll from "../../Pages/Enroll";
 // const imagesArray = [im1, im3];
 function Hero({setenroll,enroll}) {
@@ -107,7 +107,7 @@ function Hero({setenroll,enroll}) {
         </div>
       <div className="Hero-video">
       <video width="100%" height="100%" controls>
-              <source src="https://www.ssbbullseye.com/uploads/ssb.mp4" type="video/mp4"/>
+              <source src={vid} type="video/mp4"/>
 			</video>
       </div>
       {/* <div className="top">

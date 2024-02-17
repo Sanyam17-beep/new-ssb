@@ -23,7 +23,7 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    emailjs.sendForm('service_6vo282d', 'template_ehn9iyv', e.target, 'Ms2qT4zrq9SKfEDKN')
+    emailjs.sendForm('service_n9wwfu1', 'template_7i6ggdh', e.target, 'lerJuhmwe7i8ehmLz')
       .then((result) => {
         console.log(result.text);
         alert('Message sent successfully!');
@@ -81,7 +81,11 @@ placeholder="Name*" required/>
           value={formData.hearAbout}
           onChange={handleChange} className="form-input">
                     <option value="0" className="option">How did you find us?</option>
-                    <option value="Twitter" className="option">Twitter</option>
+                    <option value="Word of mouth">Word of mouth</option>
+          <option value="Internet search">Internet search</option>
+          <option value="Social media">Social media</option>
+          <option value="Advertisement">Advertisement</option>
+          <option value="Other">Other</option>
                 </select>
                 <textarea style={{height:"70px",resize:"none"}}     id="message"
           name="message"
