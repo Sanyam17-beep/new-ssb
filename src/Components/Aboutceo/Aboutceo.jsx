@@ -9,7 +9,7 @@ const imagesArray = [im12, im10,im13];
 function Aboutceo() {
   
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
+  
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % imagesArray.length);
@@ -33,12 +33,7 @@ function Aboutceo() {
    </div>
    <div className='About-content'>
     <div className='About-content-header'>About Us</div>
-    <div className='About-content-content'>A career in the Indian Armed Forces (Army, Navy &amp; Air force) is one of the most
-prestigious career options available to the youth today. As officers in the defence
-forces, they can feel proud of choosing a career of challenges, excitement and
-adventure. <br />
-<i>“ SSB BullsEye has been established with a view to provide guidance &amp; mentoring to
-the aspirants, desirous of joining the Indian Armed Forces as Officers&quot;</i>
+    <div className='About-content-content'>At SSB BullsEye, we excel in guiding candidates toward success in SSB & NDA exams. With experienced mentors and a proven track record, our tailored approach ensures comprehensive preparation. We equip you with skills and confidence needed to conquer these rigorous assessments. The SSB training modules have been carefully designed keeping the cognitive and leadership abilities of the aspirants.
 </div>
    </div>
     

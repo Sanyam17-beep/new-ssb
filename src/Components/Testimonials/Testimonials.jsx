@@ -56,7 +56,7 @@ export default function Testimonials() {
         </div>
         </div>
             <p>
-            “Embarking on a linguistic journey, we delve into language education, guiding students through exploration and proficiency.”
+            
             </p>
             <i class="bx bxs-quote-alt-left quote-icon"></i>
             <div class="details">

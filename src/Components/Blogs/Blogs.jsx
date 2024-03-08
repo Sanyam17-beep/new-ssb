@@ -7,8 +7,8 @@ function Blogs() {
   const [sheetData, setSheetData] = useState([]);
   const [data, setData] = useState(null);
 
-  const sheetId = "1qfXbM96_W7kVR5TAyLDObfzz5JlmAx8sS2eopiQtHa4";
-  const apiKey = "AIzaSyDtrY4yJwpmE6zVbjq4VEzv1MaSRYlqFgg"; // Replace with your Google Sheets API key
+  const sheetId = process.env.REACT_APP_SHEET_ID;
+  const apiKey = process.env.REACT_APP_API_KEY; // Replace with your Google Sheets API key
   const sheetName = "Sheet1"; // Replace with your sheet name
 
   useEffect(() => {
@@ -45,7 +45,6 @@ function Blogs() {
   //       : [],
   //   [sheetData]
   // );
-  console.log(data);
   return (
     <div className="blogs-container">
       <div className="blogs-header">

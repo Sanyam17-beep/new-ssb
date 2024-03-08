@@ -79,7 +79,7 @@ function Enroll() {
       //   const order = await createOrder(params);
       e.preventDefault();
       const options = {
-        key: "rzp_test_rOBbpOth8r3Pe1",
+        key: process.env.REACT_APP_API_KEY_RZP,
         amount: "1000000",
         currency: "INR",
         name: "SSBBULLSEYE",

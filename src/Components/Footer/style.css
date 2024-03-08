@@ -44,6 +44,10 @@ color: white;
     gap: 10px;
         justify-content: center;
 }
+.tnc{
+    text-decoration: none;
+    color: white;
+}
 .Contact-Us{
     width: 250px;
     color: white;
